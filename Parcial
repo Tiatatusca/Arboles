@@ -1,0 +1,54 @@
+#include <iostream>
+#include<malloc.h>
+
+using namespace std;
+
+struct Nodo {
+    int dato;
+    Nodo *der;
+    Nodo *izq;
+
+};
+
+Nodo *arbol = null;
+
+int main(){
+
+
+    getch ();
+    return 0;
+
+}
+ void menu (){
+    int dato, opcion;
+
+ }
+do {
+    cout<<"\t.: Menu:."<<endl;
+    cout<<"1. Insertar un nuevo nodo :"<<endl;  
+
+}
+
+
+
+Nodo *RegistrarNodo (int n){
+    Nodo * nuevo_nodo =  new nodo ();
+
+    nuevo_nodo->dato = n;
+    nuevo_nodo->der = null;
+    nuevo_nodo->izq = null;
+
+    return nuevo_nodo;
+
+
+} 
+void insertarNodo  (Nodo * &arbol , int n ){
+    if (arbol ==null)
+    Nodo * nuevo_nodo = RegistrarNodo (n);
+    arbol = nuevo_nodo;
+}
+else{
+    int valorRaiz = arbol->dato;
+}
+
+
